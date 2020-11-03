@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Profil Fakultas</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="judul">Judul</string>
+    <string name="profil_fakultas_upn">Profil Fakultas UPN</string>
+    <string name="textview">TextView</string>
+</resources>
