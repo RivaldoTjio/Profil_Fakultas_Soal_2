@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
         "Fakultas Teknik",
         "Fakultas Ekonomi dan Bisnis",
         "Rivaldo Hadi Winata"
-
     )
 
     val facultyDesc = arrayOf(

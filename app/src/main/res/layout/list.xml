@@ -40,17 +40,6 @@
             app:layout_constraintStart_toEndOf="@+id/imgLogo"
             app:layout_constraintTop_toTopOf="parent" />
 
-<!--        <TextView-->
-<!--            android:id="@+id/textView2"-->
-<!--            android:layout_width="238dp"-->
-<!--            android:layout_height="65dp"-->
-<!--            android:layout_marginStart="16dp"-->
-<!--            android:layout_marginTop="8dp"-->
-<!--            android:ellipsize="end"-->
-<!--            android:maxLines="3"-->
-<!--            android:text="@string/deskripsi"-->
-<!--            app:layout_constraintStart_toEndOf="@+id/imgLogo"-->
-<!--            app:layout_constraintTop_toBottomOf="@+id/textViewJudul" />-->
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
