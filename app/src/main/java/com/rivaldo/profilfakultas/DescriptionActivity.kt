@@ -58,11 +58,6 @@ class DescriptionActivity : AppCompatActivity() {
                 }
             }
         }
-//        txtprogdi.setOnClickListener {
-//            val webviewintent = Intent(this, WebView::class.java)
-//            webviewintent.putExtra("link", txtprogdi.text)
-//            startActivity(webviewintent)
-//        }
 
         txtEmail.setOnClickListener {
             // intent email

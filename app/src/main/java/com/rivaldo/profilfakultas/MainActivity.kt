@@ -16,6 +16,9 @@ class MainActivity : AppCompatActivity() {
         "Fakultas Pertanian",
         "Fakultas Teknik",
         "Fakultas Ekonomi dan Bisnis",
+            "Fakultas Ilmu Sosial dan Politik",
+            "Fakultas Hukum",
+            "Fakultas Arsitektur dan Desain",
         "Rivaldo Hadi Winata"
     )
 
@@ -24,6 +27,9 @@ class MainActivity : AppCompatActivity() {
         "Fakultas Pertanian merupakan salah satu dari 7 Fakultas di UPN \"Veteran\" Jawa Timur. Yang terdiri dari program studi:  ",
         "Fakultas Teknik merupakan salah satu dari 7 Fakultas di UPN \"Veteran\" Jawa Timur. Yang terdiri dari program studi:  ",
         "Fakultas Ekonomi dan Bisnis merupakan salah satu dari 7 Fakultas di UPN \"Veteran\" Jawa Timur. Yang terdiri dari program studi:  ",
+            "Fakultas Ekonomi dan Bisnis merupakan salah satu dari 7 Fakultas di UPN \"Veteran\" Jawa Timur. Yang terdiri dari program studi:  ",
+            "Fakultas Ekonomi dan Bisnis merupakan salah satu dari 7 Fakultas di UPN \"Veteran\" Jawa Timur. Yang terdiri dari program studi:  ",
+            "Fakultas Ekonomi dan Bisnis merupakan salah satu dari 7 Fakultas di UPN \"Veteran\" Jawa Timur. Yang terdiri dari program studi:  ",
         "Tempat, Tanggal lahir : Mojokerto, 11 Agustus 1999 \n Email : rivaldohadiwinata@gmail.com  "
 
     )
@@ -33,14 +39,20 @@ class MainActivity : AppCompatActivity() {
         " 1. Agroteknologi \n 2. Agribisnis",
         " 1. Teknik Kimia \n 2. Teknik Industri \n 3. Teknik Sipil \n 4. Teknik Lingkungan \n 5. Teknologi Pangan \n 6. Teknik Mesin",
         " 1. Ekonomi Pembangunan \n 2. Akuntansi \n 3. Manajemen",
+            "1. Administrasi Negara \n 2. Administrasi Bisnis \n 3. Hubungan Internasional \n 4. Ilmu Komunikasi",
+            "1. Ilmu Hukum",
+            "1. Arsitektur \n 2. Desain Komunikasi Visual",
         " Github : https://github.com/RivaldoTjio \n Alamat : Kecapi 38 , Kota Mojokerto \n SMA : SMA Katolik St. Thomas Aquino"
     )
 
     val facultyImage = arrayOf(
-        R.drawable.logoupn,
-        R.drawable.logoupn,
-        R.drawable.logoupn,
-        R.drawable.logoupn,
+        R.drawable.fik,
+        R.drawable.faperta,
+        R.drawable.teknik,
+        R.drawable.feb,
+            R.drawable.fisip,
+            R.drawable.hukum,
+            R.drawable.fad,
         R.drawable.pasfoto
     )
 
@@ -49,6 +61,9 @@ class MainActivity : AppCompatActivity() {
         "http://faperta.upnjatim.ac.id/",
         "http://ft.upnjatim.ac.id/",
         "http://febis.upnjatim.ac.id/",
+            "http://fisip.upnjatim.ac.id/",
+            "http://fh.upnjatim.ac.id/",
+            "http://fad.upnjatim.ac.id/",
         "https://github.com/RivaldoTjio"
     )
 
@@ -57,6 +72,9 @@ class MainActivity : AppCompatActivity() {
             "faperta@upnjatim.ac.id",
             "ft@upnjatim.ac.id",
             "febis@upnjatim.ac.id",
+            "fisip@upnjatim.ac.id",
+            "fh@upnjatim.ac.id",
+            "fad@upnjatim.ac.id",
             "rivaldohadiwinata@gmail.com"
     )
 
@@ -65,6 +83,9 @@ class MainActivity : AppCompatActivity() {
             arrayOf("http://agrotek.upnjatim.ac.id/","http://agribis.upnjatim.ac.id/"),
             arrayOf("http://tekkimia.upnjatim.ac.id/","http://tekindustri.upnjatim.ac.id/","http://teksipil.upnjatim.ac.id/","http://teklingk.upnjatim.ac.id/","http://tekpang.upnjatim.ac.id/","https://ft.upnjatim.ac.id/"),
             arrayOf("http://ekbang.upnjatim.ac.id/","http://akuntansi.upnjatim.ac.id/","http://manajemen.upnjatim.ac.id/"),
+            arrayOf("https://adneg.upnjatim.ac.id/","https://adbis.upnjatim.ac.id/", "http://hubint.upnjatim.ac.id/", "http://ilkom.upnjatim.ac.id/"),
+            arrayOf("http://ilkum.upnjatim.ac.id/"),
+            arrayOf("http://dkv.upnjatim.ac.id/","http://arsitektur.upnjatim.ac.id/"),
             arrayOf("https://github.com/RivaldoTjio")
     )
     override fun onCreate(savedInstanceState: Bundle?) {
